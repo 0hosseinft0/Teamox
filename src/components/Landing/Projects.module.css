@@ -1,0 +1,77 @@
+.container{
+    justify-content: center;
+    direction: rtl;
+    padding: 0 12px 0;
+}
+.headermtn{
+    padding-top: 70px;
+    text-align: center;
+}
+.headermtn h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.headermtn p{
+    color: #a2a3a3;
+    font-size: 0.8rem;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 300px;
+    flex-wrap: wrap;
+}
+.card img{
+    border-radius: 35px;
+}
+.card p{
+font-family: VazirLight;
+color: #a2a3a3;
+}
+.btn{
+    display: flex;
+    margin: 50px 0 0 0;
+    justify-content: center;
+}
+.btn button{
+    width: 200px;
+    background-color: transparent;
+    font-family: 'Vazir';
+    border: 2px solid #ef314d;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #291c22;
+}
+@media (max-width: 1700px) {
+.card{
+    padding: 50px 200px;
+}
+}
+@media (max-width: 1500px) {
+    .card{
+        padding: 50px 170px;
+    }
+    }
+    @media (max-width: 1400px) {
+        .card{
+            padding: 50px 100px;
+        }
+        }
+        @media (max-width: 1240px) {
+            }
+@media (max-width: 500px) {
+    .headermtn h2{
+        font-size: 1.1rem;
+    }
+    .headermtn p{
+        text-align: justify;
+    }
+}

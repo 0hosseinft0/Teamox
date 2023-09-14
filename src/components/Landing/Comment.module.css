@@ -1,0 +1,125 @@
+.container{
+    justify-content: center;
+    direction: rtl;
+    padding: 0 12px 0;
+}
+.tabs{
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    position: relative;
+}
+.tablink{
+    width: 600px;
+    padding:55px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.tablink p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #121316;
+    color: #aaaaaa;
+    cursor:pointer;
+    width:200px;
+    height:80px;
+    padding:20px 10px 20px 30px;
+    margin:10px;
+}
+.tablink img{
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.tablink p:active{
+    border-radius: 10px;
+    border: 1px solid #ef314d;
+    color: #ef314d;
+}
+.headermtn{
+    padding-top: 70px;
+    text-align: center;
+}
+.headermtn h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.headermtn p{
+    font-family: VazirTin;
+    color: #a2a3a3;
+    font-size: 0.8rem;
+}
+.card{
+    position: relative;
+    display: flex;
+    padding: 42px 0 30px 0;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 45px !important;
+    height: 65px !important;
+    position: absolute;
+    margin: 10px 20px;
+    border-radius: 0 !important;
+}
+.card h3{
+    font-size: 0.9rem;
+    text-align: right;
+    margin: 20px 80px;
+}
+.card h2{
+    color: #a2a3a3;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: -10px 90px 30px;
+}
+.card p{
+font-family: VazirTin;
+border-radius: 10px;
+letter-spacing: 1px;
+word-spacing: 1px;
+background-color: #18191d;
+color: #fff;
+}
+@media (max-width: 1083px) {
+    .tablink{
+        width: auto !important;
+    }
+}
+@media (max-width: 973px) {
+    .tabs{
+            justify-content: center;        
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            position: relative;
+    }
+    .tablink{
+        justify-content: space-between;
+        padding:0 !important;
+    }
+    .tablink p{
+        width: 80px !important;
+        height: 30px !important;
+        font-size: 0.7rem;
+    }
+    .tablink img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .headermtn h2{
+        font-size: 1.1rem;
+    }
+    .headermtn p{
+        text-align: justify;
+    }
+}

@@ -1,0 +1,38 @@
+.container{
+    justify-content: center;
+    direction: rtl;
+    padding: 0 30px 0;
+}
+.fluid{
+    text-align: -webkit-center;
+}
+.headermtn{
+    padding-top: 70px;
+    text-align: center;
+}
+.headermtn h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.headermtn p{
+    color: #a2a3a3;
+    font-family: VazirTin;
+    font-size: 0.8rem;
+}
+.card p{
+    font-family: VazirLight;
+}
+@media (min-width: 500px) {
+    .fluid{
+        padding: 100px;
+    }
+}
+@media (max-width: 500px) {
+    .headermtn h2{
+        font-size: 1.1rem;
+    }
+    .headermtn p{
+        text-align: justify;
+    }
+}

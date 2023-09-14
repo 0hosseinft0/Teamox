@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Vazir';
+  src: local('Vazir'), url(./fonts/Vazir-Bold.ttf) format('truetype');
+}
+@font-face {
+font-family: 'VazirTin';
+src: local('VazirTin'), url(./fonts/Vazir-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'VazirLight';
+  src: local('VazirLight'), url(./fonts/Vazir-Light.ttf) format('truetype');
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #a7a7a7;
+  text-decoration: none !important;
+}
+a:hover{
+  color: #de2f49;
+}
+.Toastify__toast {
+  direction: rtl !important;
+  font-family: Vazir !important;
+}
+.Toastify__progress-bar{
+  transform-origin: right !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Vazir','VazirLight','VazirTin','ghalam','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hamburger-react{
+  z-index: 10000000000000000000000000000 !important;
+}

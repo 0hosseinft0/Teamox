@@ -1,0 +1,38 @@
+.container{
+    width: 330px;
+    max-height:500px;
+    margin-top: 20px;
+    background-color: #121316;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #0000000d;
+    direction: rtl;
+    text-align: -webkit-center;
+    cursor: pointer;
+}
+.container:hover{
+    background-color: #271a20;
+    border: 1px solid #ef314d;
+}
+.container img{
+    display: block;
+    width: 100px !important;
+    border-radius: 50px;
+    margin: 50px;
+}
+.container h3{
+   color: #f7f6f6;
+   margin: 30px 20px 20px;
+   text-align: center;
+   font-size: 1.2rem;
+}
+.container p{
+   font-family: VazirLight;
+   color: #a2a3a3;
+   font-size: 0.9rem;
+   margin: 0 25px 20px;
+   text-align: justify;
+   width: fit-content;
+   padding: 10px;
+}

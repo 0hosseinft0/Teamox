@@ -1,0 +1,117 @@
+
+.header{
+    font-family: Vazir;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.listContainer{
+display: inline-flex;
+}
+
+.listend {
+    display: flex;
+    align-items:center;
+
+}
+
+.logo{
+    width: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto 0;
+
+}
+.sun{
+    width: 25px;
+    background-color: transparent;
+    border: 2px solid #ef314d;
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+    padding: 12.5px 20px;
+    cursor: pointer;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.sun img{
+    width: 17px;
+    height: 17px;
+    top: 20px;
+    margin-top: 2px;
+    padding: 4px;
+}
+.sun:hover{
+    background-color: #291c22;
+}
+.btn{
+    padding-right: 10px;
+    margin: 25px 0;
+}
+.btn button{
+    width: 110px;
+    background-color: transparent;
+    font-family: 'Vazir';
+    border: 2px solid #ef314d;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #291c22;
+}
+.list{
+    display: flex;
+    list-style: none;
+    direction: rtl;
+    
+}
+.list li{
+    padding: 35px;
+    cursor: pointer;
+    color: #a7a7a7 !important;
+    font-weight: bold;
+}
+.list li:hover{
+    color: #de2f49 !important;
+}
+.hamburgermenu{
+    display: none;
+    background-color: transparent;
+    border: 2px solid #ef314d;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+    padding: 1px;
+    cursor: pointer;
+
+}
+.hamburger-react{
+    z-index: 100 !important;
+}
+@media (max-width: 930px) {
+    .hamburgermenu{
+        display: block;
+        position: fixed;
+        right: 20px;
+    }
+    .listContainer{
+        display: none;
+        }
+        .header{
+        min-width: 100%;
+        position: fixed;
+        background-color: #18191d;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px -5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px;
+        }
+
+}

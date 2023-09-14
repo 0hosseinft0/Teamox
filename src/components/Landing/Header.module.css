@@ -1,0 +1,70 @@
+.header{
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    direction: rtl;
+
+}
+.icon{
+    width: 900px;
+}
+.icon img{
+    width: 100%;
+}
+.headermtn{
+    width: 800px;
+    padding-top: 70px;
+}
+.headermtn h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.headermtn p{
+    font-family: VazirTin;
+    color: #aaaaaa;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: justify;
+}
+.btn{
+    padding-right: 10px;
+    margin: 25px 0;
+}
+.btn button{
+    width: 200px;
+    background-color: transparent;
+    font-family: 'Vazir';
+    border: 2px solid #ef314d;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #291c22;
+}
+@media (max-width: 930px) {
+    .header{     
+        flex-wrap: wrap;
+    }
+    .icon{
+        margin-top: 100px;
+    }
+}
+@media (max-width: 500px) {
+    .header{     
+        padding: 20px;
+    }
+    .headermtn h2{
+        font-size: 1.5rem;
+    }
+    .headermtn p{
+        font-size: 0.8rem;
+    }
+    .headermtn{
+        padding-top: 30px;
+    }
+}
